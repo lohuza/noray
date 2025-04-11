@@ -8,6 +8,11 @@ primary_region = 'ams'
 
 [build]
 
+[env]
+  NORAY_SOCKET_HOST = "0.0.0.0"
+  NORAY_HTTP_HOST = "0.0.0.0"
+  NORAY_UDP_HOST = "0.0.0.0"
+
 [http_service]
   internal_port = 8890
   force_https = true

@@ -53,5 +53,5 @@ primary_region = 'ams'
   internal_port = 49152
   
   [[services.ports]]
-    port = 49152
-    range_end = 51200
+    start_port = 49152
+    end_port = 51200

@@ -21,3 +21,10 @@ primary_region = 'ams'
   cpu_kind = 'shared'
   cpus = 1
   memory_mb = 1024
+
+[[services]]
+  protocol = "udp"
+  internal_port = 8809
+  
+  [[services.ports]]
+    port = 8809

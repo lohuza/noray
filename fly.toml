@@ -47,3 +47,11 @@ primary_region = 'ams'
   
   [[services.ports]]
     port = 8891
+
+[[services]]
+  protocol = "udp"
+  internal_port = 49152
+  
+  [[services.ports]]
+    port = 49152
+    range_end = 51200

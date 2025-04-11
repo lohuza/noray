@@ -28,3 +28,17 @@ primary_region = 'ams'
   
   [[services.ports]]
     port = 8809
+
+[[services]]
+  protocol = "tcp"
+  internal_port = 8890
+  
+  [[services.ports]]
+    port = 8890
+
+[[services]]
+  protocol = "tcp"
+  internal_port = 8891
+  
+  [[services.ports]]
+    port = 8891
